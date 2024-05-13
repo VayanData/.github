@@ -1,0 +1,38 @@
+name: 👾 Bug
+description: File a bug/issue
+title: "[BUG] "
+labels: ["Bug"]
+projects: ["Active Framework"]
+
+body:
+- type: textarea
+  id: contexte
+  attributes:
+    label: Description
+    placeholder: Description of a new feature
+    value: 
+  validations:
+    required: true
+- type: textarea
+  id: repoductionStages
+  attributes:
+    label: Repoduction Stages
+    placeholder: Please, describe all repoduction stages
+    value: 
+  validations:
+    required: false
+- type: textarea
+  id: workToDo
+  attributes:
+    label: Work To Do 
+    placeholder: What needs to be done
+    value: 
+  validations:
+    required: true
+- type: textarea
+  id: test
+  attributes:
+    label: Test description
+    value: 
+  validations:
+    required: false
