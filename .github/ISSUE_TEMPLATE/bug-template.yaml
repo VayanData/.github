@@ -14,10 +14,10 @@ body:
   validations:
     required: true
 - type: textarea
-  id: repoductionStages
+  id: reproductionStages
   attributes:
-    label: Repoduction Stages
-    placeholder: Please, describe all repoduction stages
+    label: Reproduction Stages
+    placeholder: Please, describe all reproduction stages
     value: 
   validations:
     required: false
