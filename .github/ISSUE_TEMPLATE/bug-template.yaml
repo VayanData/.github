@@ -8,31 +8,59 @@ body:
 - type: textarea
   id: contexte
   attributes:
-    label: Description
+    label: 💡 Description
     placeholder: Description of a new feature
-    value: 
+    value:
   validations:
     required: true
 - type: textarea
   id: reproductionStages
   attributes:
-    label: Reproduction Stages
+    label: 🔎 Reproduction Stages
     placeholder: Please, describe all reproduction stages
-    value: 
+    value:
   validations:
     required: false
 - type: textarea
   id: workToDo
   attributes:
-    label: Work To Do 
+    label: 🔧 Work To Do
     placeholder: What needs to be done
-    value: 
+    value:
   validations:
     required: true
+- type: input
+  id: stationLink
+  attributes:
+    label: ℹ Station Link
+    placeholder: Teams Hyperlink
+  validations:
+    required: false
+- type: input
+  id: stationCredentials
+  attributes:
+    label: ℹ Station Credentials
+    placeholder: admin / Niagara123
+  validations:
+    required: false
+- type: input
+  id: componentOrd
+  attributes:
+    label: ℹ Component Ord
+    placeholder: station:|slot:/Drivers/...
+  validations:
+    required: false
+- type: input
+  id: stackTrace
+  attributes:
+    label: ℹ Stack Trace
+    placeholder: java.lang.NullPointerException ...
+  validations:
+    required: false
 - type: textarea
   id: test
   attributes:
-    label: Test description
-    value: 
+    label: 💻 Test description
+    value:
   validations:
     required: false
