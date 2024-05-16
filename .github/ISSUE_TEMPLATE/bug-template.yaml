@@ -50,7 +50,7 @@ body:
     placeholder: station:|slot:/Drivers/...
   validations:
     required: false
-- type: input
+- type: textarea
   id: stackTrace
   attributes:
     label: ℹ Stack Trace
